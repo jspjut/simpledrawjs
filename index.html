@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Simple Drawing in Javascript</title>
+    </head>
+    <script src="simpledraw.js"></script>
+    <body>
+        <table>
+            <tr>
+                <td>Width</td>
+                <td><input type="range" id="width" onchange="updateCanvas()"></td>
+                <td id="widthOut"></td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td><input type="range" id="height" onchange="updateCanvas()"></td>
+                <td id="heightOut"></td>
+            </tr>
+        </table>
+          
+        <!-- Height <input type="range" id="height" onchange="updateCanvas()"> <div id="heightOut"></div> -->
+        <canvas div id="theCanvas" width="500" height="500" style="border:1px solid #d3d3d3;">Your browser does not support HTML5 canvas</canvas>
+    </body>
+</html>
